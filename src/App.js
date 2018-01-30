@@ -19,7 +19,7 @@ class App extends Component {
         </p>
         <button onClick={() => {
           // window.gtag('goal');
-        }}>Goal Button</button>
+        }}>Hoho Button</button>
       </div>
     );
   }
