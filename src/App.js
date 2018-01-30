@@ -4,7 +4,7 @@ import './App.css';
 
 class App extends Component {
   componentDidMount() {
-    window.gtag('start');
+    // window.gtag('start');
   }
 
   render() {
@@ -18,7 +18,7 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
         <button onClick={() => {
-          window.gtag('goal');
+          // window.gtag('goal');
         }}>Goal Button</button>
       </div>
     );
